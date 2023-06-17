@@ -9,10 +9,25 @@ Hình thức thi:
 ## 1. Lý thuyết (học thuộc, 2-3đ, đề ra 1 câu)
 <ol>
   <li><b>Chương 5:</b> Trình bày và đánh giá độ phức tạp của thuật toán <b>chia đôi</b> để tính $a^n$, với $a\in\Bbb R, n\in\Bbb N$ </li>
+
+  `Chương 5 - Ví dụ 5.69 trang 48/51`
+
   <li><b>Chương 7:</b> Phát biểu, chứng minh công thức hàm <b>Euler phi</b> tìm các số nguyên dương nhỏ hơn $n$ và nguyên tố cùng nhau với $n$. Tìm $\varPhi(1984)$</li>
+
+  `Chương 7 - DLi 7.1 trang 9/17` 
+
   <li><b>Chương 8:</b> Số <b>Catalan</b> là gì? Trình bày hệ thức đệ quy của số Catalan, và phương pháp hàm sinh để tìm công thức tường minh của nó</li>
+
+  `Chương 1 - 0 có`
+
   <li><b>Chương 9:</b> Phát biểu, chứng minh định lý <b>Léma</b> về đánh giá thuật toán <b>Euclid</b> tìm ước chung lớn nhất của hai số nguyên dương. Trình bày thuật toán Euclid tìm $\gcd(2023, 1984)$</li>
+
+  `Chương 9 - ví dụ 9.15 trang 18/39`
+
   <li><b>Chương 9:</b> Trình bày và đánh giá độ phức tạp của thuật toán <b>sắp xếp trộn</b></li>
+
+  `Chương 9 - trang 31/39`
+
   <li>...đang cập nhật</li>
 </ol>
 
@@ -25,13 +40,26 @@ for i = 1 to n do
     for k = 1 to j - 1 do
       print i, j, k
 </pre>
+
+  <i>https://ibb.co/7Yk7kMC</i>
   </li>
-  <li><b>Chương 4:</b> Bằng quy nạp, chứng minh $\displaystyle \sum\limits_{i = 1}^n {\frac{1}{{i(i + 1)}}}  = \frac{n}{{n + 1}},\; \forall n\in\Bbb Z^+$</li>
-  <li><b>Chương 6:</b> Cho quan hệ $\mathcal{R}$ trên tập $A$ cỡ $n = 4, 5$ hoặc 6. Tìm bao đóng bắc cầu $\mathcal{R}^*$ của $\mathcal{R}$ bằng thuật toán
-    <ol>
-      <li>nhân ma trận: ghi ra các ma trận $M, M^2,\ldots, M^n$ và $M^*$</li>
-      <li>Warshall: ghi ra các ma trận $W_0, W_1,\ldots, W_{n-1}$ và $M^*$</li>
-    </ol>
+
+  <li><b>Chương 4:</b> Bằng quy nạp, chứng minh $\displaystyle \sum\limits_{i = 1}^n {\frac{1}{{i(i + 1)}}}  = \frac{n}{{n + 1}},\; \forall n\in\Bbb Z^+$
+
+  <i>https://ibb.co/tH2pTYY</i>
+  </li>
+
+  <li><b>Chương 6:</b> Cho quan hệ $\mathcal{R}$ trên tập $A$ cỡ $n = 4, 5$ hoặc 6. Tìm bao đóng bắc cầu $\mathcal{R}^*$ của $\mathcal{R}$ bằng thuật toán 
+  <ol>
+      <li>nhân ma trận: ghi ra các ma trận $M, M^2,\ldots, M^n$ và $M^*$ </li>
+      
+      `Chương 6 Ví dụ 6.42 trang 26/30`
+
+  <li>Warshall: ghi ra các ma trận $W_0, W_1,\ldots, W_{n-1}$ và $M^*$</li>
+
+      `Chương 6 Ví dụ 6.43 trang 27/30`
+
+  </ol>
   </li>
   <li><b>Chương 9:</b> Cho hàm $a(n)$ định nghĩa bằng đệ quy.
 <pre>
